@@ -7,7 +7,7 @@
     'Versione' => 'VARCHAR(150)',
     'Prezzo' => 'FLOAT(7,2) – NOT_NULL',
     'Località' => 'VARCHAR(100)',
-    'Chilometraggio' => 'SMALLINT – UNSIGNED – NOT_NULL',
+    'Chilometraggio' => 'MEDIUMINT – UNSIGNED – NOT_NULL',
     'Carburante' => 'VARCHAR(20) – NOT_NULL',
     'Classe_emissioni' => 'TINYINT – NOT_NULL – DEFAULT(0)',
     'Numero_porte' => 'TINYINT – NOT_NULL',
